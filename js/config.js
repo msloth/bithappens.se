@@ -43,7 +43,7 @@ $(function() {
 		// to Github pages branch (gh-pages)
 		githubUserSettings: {
 			username: 'msloth',
-			repo: ''
+			repo: 'bithappens.se'
 		}
 
 	});
