@@ -291,13 +291,7 @@ var CMS = {
 		if(CMS.settings.mode == 'Github') {
 			var gus = CMS.settings.githubUserSettings,
 				gs = CMS.settings.githubSettings;
-			if (gus.repo === '') {
-					url = gs.host + '/' + folder + '?ref=' + gs.branch;
-			} else {
-					url = gs.host + '/repos/' + gus.username + '/' + gus.repo + '/contents/' + folder + '?ref=' + gs.branch;
-			}
-		// msloth.github.io/repos/msloth//contents/posts?ref=gh-pages
-		// msloth.github.io/posts?ref=gh-pages
+				url = gs.host + '/repos/' + gus.username + '/' + gus.repo + '/contents/' + folder + '?ref=' + gs.branch;
 		} else {
 			url = folder;
 		}
