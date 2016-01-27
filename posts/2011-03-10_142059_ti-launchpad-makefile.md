@@ -3,3 +3,48 @@ layout: post
 title: TI Launchpad makefile
 ---
 
+[caption id=\"\" align=\"alignleft\" width=\"300\" caption=\"TI Launchpad\"]<a href=\"http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29?DCMP=launchpad&amp;HQS=Other+OT+launchpadwiki\"><img title=\"TI Launchpad\" src=\"http://processors.wiki.ti.com/images/thumb/a/ad/LaunchPad_wireframe.PNG/300px-LaunchPad_wireframe.PNG\" alt=\"TI Launchpad\" width=\"300\" height=\"351\" /></a>[/caption]
+
+The <a title=\"Launchpad\" href=\"http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29?DCMP=launchpad&amp;HQS=Other+OT+launchpadwiki\">TI Launchpad</a> is a small fun developers platform, perhaps most suited for beginners to microcontrollers. It retails for $4.30, comes with two simple MSP430 microcontrollers, a small PCB with two LEDs, pushbuttons, pin headers etc. It can be programmed via USB, either by the TI provided software, or, as I do, with msp-gcc and <a title=\"mspdebug\" href=\"http://mspdebug.sourceforge.net/\">mspdebug</a> in Linux. As I also program sensor nodes with <a title=\"Contiki\" href=\"http://www.sics.se/contiki\">Contiki</a>, I wanted the syntax to be similar, eg \"make upload\". I wrote a small makefile so that the following syntax can be used:
+<pre><small>
+// compile and link the files
+make
+</small></pre>
+<pre><small>// compile and upload to Launchpad
+make upload</small></pre>
+<pre><small>// remove all {object-, elf-, etc} files
+make clean</small></pre>
+<pre><small>// erase the MSP430 in Launchpad
+make erase</small></pre>
+<pre><small>// get size of the elf file
+make size
+</small></pre>
+<small></small>
+And here\'s the makefile itself. To adapt it to your project, just change the names stated under \'objects\' to your files, with an .o extension. In my file below, basic.c is the \'main\'file and vfd_driver.c is... a driver for a VFD display.
+
+<small></small>
+<pre><small>OBJECTS = basic.o vfd_driver.o
+
+CC = msp430-gcc
+CFLAGS =-Os -Wall -g -mmcu=msp430x2012
+
+all : $(OBJECTS)
+$(CC) $(CFLAGS) $(OBJECTS) -o upload.elf
+
+%.o : %.c
+$(CC) $(CFLAGS) -c $&lt;
+
+clean:
+rm -fr $(OBJECTS) upload.elf
+
+erase:
+mspdebug rf2500 \"erase\"
+
+upload:
+make
+mspdebug rf2500 \"prog upload.elf\"
+
+size:
+msp430-size upload.elf
+</small></pre>
+<small></small>
