@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<style type="text/css">
+h1 {font-family: 'Pontano Sans', sans-serif;}
+h2 {font-family: 'Pontano Sans', sans-serif;}
+h3 {font-family: 'Pontano Sans', sans-serif;}
+p {font-family: 'Pontano Sans', sans-serif;}
+::-moz-selection
+{
+background:#0C0;
+color:#fff;
+}
+::selection
+{
+background:#6374AB;
+color:#fff;
+}
+</style>
+<title>Lega - portfolio - BitHappens.se</title>
+</HEAD>
+<BODY>
+
+
+
+
+<div id="container" style="">
+<div id="leftside" style="height:100px;width:15%;float:left;"></div>
+<div id="content" style="height:100px;width:70%;float:left;">
+
+
+<br><br><br>
+<p><b><a href="http://www.bithappens.se/blog">Back to BitHappens blog</a><br></b></p>
+<br><br><br><br><br>
+<h1>Lega - what is that?</h1>
+<p>
+The word "Lega" is an old Swedish word designating the bent vegetation where a large animal has been lying, such as an elk (moose). We borrowed the semantics for this system, a temporary trace of something/someone that has been there before. For us involved in this project, it became to mean anything or all of the following: a debugging never ending story, an interesting case study of a WSN, a technical probe for interaction research.<br>
+</p>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/6.jpg"></center><br><p>
+<br>
+  <h2>Background</h2>
+<p>
+The Supple project was a multi- and interdisciplinary project spanning several years, taking place mainly at SICS and MobileLife Centre but with contributors and participants from Ericsson, Nokia and KTH. The overall research question is how the tensions and problems arising in multidisciplinary design teams can be lessened. The problems we focused on are related to designers not having the same knowledge of technology as the engineers that will later implement the idea using the technology, and engineers not being able to convey this knowledge, experience and information to the designers. The result often becomes vague design ideas and concepts which engineers try to implement with what they have and can, both sides feeling that the others are just not "getting it".<br>
+<br>
+The Lega system was built in an effort to explore those tensions, trying to make them as explicit and tangible as possible in order to be able to work with them. As a motivating case study, the Lega was built as a device that users in an art exhibition can use to convey impressions and thoughts to friends at the same exhibition but not immediately co-located. This in turn is motivated by other research being conducted at the MobileLife Centre. The team consisted of competences in wireless sensor networks, RF and localization, HCI, industrial design and more.<br>
+<br>
+Previous research had shown that quite often friends at an art exhibition arrive together but split up and when randomly running into each other they share their experiences. Often, it can be a hard time remembering what art piece is being discussed, and expressing experiences and feelings with words. With the Lega, a group of friends visiting the exhibition get one mobile device each with a unique identity. When the user wants to convey anything ("I like this", "I find this too yellow" etc) to the others, the user leaves a message, or a trace (as a lega in the forrest) by moving around the device and touching it on the bottom. Later, the friends walking by that art piece will pick up this trace automatically and it will play back on their device with light and vibrations.<br>
+<br>
+</p>
+
+
+  <h2>High level overview</h2>
+<p>
+The system consists of the mobile Lega devices, an infrastructure backbone and tools. The Legas have RGB LEDs, a grid of vibration motors and touch sensors, a button driven by a servo motor and a wireless sensor node inside. The node is a Sentilla JCreate, which is based on a TI MSP430f1611 micro controller and a TI CC2420 radio transceiver. The infrastructure backbone is there for two mission critical services: localization and trace storage/delivery. By transmitting short periodic radio beacons, a mobile device can approximate proximity to art pieces. The tools include software for logging, monitoring, performance measurements and diagnostics, and hardware to for example, put the backbone to deep sleep or wake it up, flush buffers and logs et cetera.<br>
+<br>
+Approximately 35 nodes were used as backbone, placed around the exhibition. At first they were placed on a ledge, 3-4 meters up, as we thought that the 2.4 GHz RF would be too attenuated by the bodies of the people in the exhibition. Later, we discovered that the attenuation actually worked to our advantage, and as climbing on shaky ladders over expensive art in one of the biggest exhibtions in Sweden is far from ideal, we instead hid them in crevices or behind radiators in the walls,  max 30 cm from the floor. Much better.<br>
+<br>
+</p>
+
+  <h2>Liljevalchs art exhibition</h2>
+<p>
+Liljevalchs is an century-old building situated in the beautiful surroundings of Djurgarden in Stockholm. They organize and hold an annual art exhibition called the Spring exhibition which is open for anyone to apply for, established artist or not. In 2011, there were over 2000 applicants and the 131 accepted artists age span was 18 to 86 years old. The Spring exhibition takes place January to March and receives 40000 - 50000 visitors. All art pieces are for sale and there usually is quite the ruckus the first days when people try to buy the best ones.<br>
+<br>
+</p>
+
+  <h2>Supple systems</h2>
+<p>
+We started out with a workshop to decide on high level design goals of the system. Through quick and dirty prototypes and in situ experiments with ordinary visitors, we found the concept of leaving traces to friends at the art pieces the most intriguing. As some of the researchers on the team were doing research on bodily interaction, we decided to build a system that would work without a screen and where you use your entire body in creating the message, trace.<br>
+<br>
+Picture from the workshop; the very first prototype, built by me. A wireless sensor node with a vibration motor hidden in a styrofoam ball with a sock over it. It started vibrating when triggered by receiving a packet with a high enough RSSI sent with low transmission power, thus it didn't trigger unless about 1-2 meters away from the sender, which was placed in the exhibition.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/1.jpg"></center><br><p>
+</p>
+
+
+
+<h1>Building</h1>
+<p>
+The Lega mobile node plastic shell, 3D-printed by a contractor.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/2.jpg"></center><br><p>
+
+A grid of vibration motors, similar to the ones in any given cellphone. There is a layer of foam to reduce transfer of vibration movements which would lessen the sensation of vibration locality. The goal is to be able to convey a feeling of something buzzing that is moving over your hand, like if someone is drawing with a fingertip on the inside of your hand.<br> 
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/3.jpg"></center><br><p>
+<br>
+Capacitive touch sensors through tin foil patches. They are wired to a Freescale touch sensor IC. There are a few variants on how to do cap touch sensing. IIRC here, the patches are charged, like a capacitor, and by measuring the amount of time it takes for them to discharge be leakage current, the capacitance of the sensor can be approximated. As a user affects the capacitance by distance, conductivity and surface area, the difference can be used to detect presence.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/4.jpg"></center><br><p>
+<br>
+Top half of the main PCB. Shows the RGB LEDs and three of the LED drivers (CAT9532). I formulated the specification and picked these.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/5.jpg"></center><br><p>
+<br>
+Bottom half of the main PCB. Here we see two more LED drivers, a DC converter giving us a stable supply voltage from the set of batteries and the servo motor controlling the button. The button is used for both user input - press it to leave a trace - and as an indicator. When a trace has been picked up, the button is pulled down to indicate that it is playing back a trace. The servo button was my idea, and also how to hack it to be able to read out what position the button is in. The servo motor basically consists of the following components: a DC motor, a gear box with servo arm, a microcontroller that reads PWM input and translates to arm angle output and finally a turn potentiometer for the microcontroller to measure the position of the arm. I soldered a cable to the read-out pin of it and read it with the ADC on the node MSP430.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/6.jpg"></center><br><p>
+</p>
+
+<h1>Deploying</h1>
+<p>
+The complete infrastructure, in restful peace at my kitchen table. They are Tmote Sky, a wireless sensor node similar to the Sentilla JCreate: MSP430f1611, CC2420 and a FTDI UART to USB so that they can be programmed and communicated with over USB. The antenna is a regular TI reference design: a PIFA PCB antenna. Two AA-batteries are used as power source.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/7.jpg"></center><br><p>
+
+<br>
+Initially, we placed the infrastructure on a ledge, 3-4 meters up, balancing on a tall ladder. As performance wasn't up to par, and as we were only able to access them, barely, when there were no visitors, we moved them to small hiding places behind the wall.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/8.jpg"></center><br><p>
+<br>
+The nodes were given static network addresses reflecting on which room they were in. The larger the room, the more nodes we placed there. We also placed nodes in strategic places so that a user coming from the cellar would beleive that it is at 34.0 and start receiving traces (if there were any) even though they were at the wrong floor. By placing 1.0 in the staircase, the Lega would not play those traces until actually being there.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/technichal/9.png" width="500px"></center><br><p>
+</p>
+
+<h1>Results</h1>
+<p>
+As this was a multidisciplinary project with many interests in it, there are results on many levels. For the interested, consider reading the papers. Links are further down. The core idea behind <a href="http://www.bithappens.se/resources/papers/The%20politecast%20communication%20primitive%20for%20low-power%20wireless%20-%20ACM%20CCR%2011-04%20-%20p31-lunden.pdf">the politecast primitive</a> is reducing the negative impact from redundant transmissions in low-power wireless sensor networks. The <a href="http://www.bithappens.se/resources/papers/The%20Lega%20-%20a%20device%20for%20leaving%20and%20finding%20tactile%20traces%20-%20TEI%2011%20-%20p193-laaksolahti.pdf">TEI-paper</a> is mainly considering the Lega as a technical probe for interaction research.<br>
+<br>
+A Lega.
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/1.jpg"></center><br><p>
+<br>
+The exhibition was visited by a lot of people. If not already taken, anyone showing up in a group of friends could try out the Lega.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/2.jpg"></center><br><p>
+<br>
+Here is a happy bunch of users.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/3.jpg"></center><br><p>
+<br>
+A few pictures of the Lega in use. Each Lega has an identity indicated by a color: red, green, cyan etc. They light up in its own color when leaving a trace, and in the color of the sender when picking up a trace.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/4.jpg"></center><br><p>
+<br>
+You create a trace by moving around the Lega as you feel that it reflects on what you want to convey, for example quick jerky movements like a maracas or perhaps smooth circular movements.<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/5.jpg"></center><br><p>
+<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/6.jpg"></center><br><p>
+<br>
+</p><center><img src = "http://www.bithappens.se/resources/pictures/pf/Lega/using/7.jpg"></center><br><p>
+</p>
+
+
+<h1>Questions</h1>
+<p>
+<b>What kind of data were used and stored as a trace, and how was it played back?</b><br>
+A trace consisted of the identity of the sender, a serial number and condensed sensor data. The sensor data was accelerometer data and touch sensor data. How it was condensed down changed during the deployment as better ways emerged through rewrites and rethinking. In the end, the basic idea was going through a second of samples, dividing it into slots and for each slot store max, min and a derived number for how much it changes over the slot. The touch data was condensed in a similar way. It was possible to distinguish between long smooth movements from quick jerky ones.
+<br><br><br>
+<b>Tell me more about the software used.</b><br>
+All the embedded systems were running Contiki (at the time 2.2 I think) with a lot of hardware drivers coded for the mobile nodes, and much much software written for the positioning, the application, the tools etc. I was alone most of the time writing this, but I had help a while of another developer.
+<br><br><br>
+<b>Tell me more about the radio protocols and politecast.</b><br>
+The X-MAC low power MAC protocol was used, which employs a pre-amble before the actual data packet to wake receiver (-s) up. The network bandwidth was under a lot of stress and the infrastructure was losing power to unnecessary waking up. The reason for this was that the infrastructure had to transmit broadcasts frequently for the positioning to have a low enough latency, the network was crowded and the walls was basically brick and wood which is near transparent to 2.4 GHz. We solved this by turning the assumption behind broadcasts upside down. Instead of assuming the receiver is interested and we should wake it up, as broadcasts in XMAC and other LPMACs do, we assume that if it is interested, it is already listening and we don't have to wake it up. This is the essence of politecast. By changing to politecasts, we reduced power consumption with up 98% in the worst case and reduced bandwidth load. With broadcast, some nodes experienced a denial of service due to CSMA failing CCA and thus backing off and eventually dropping packets, rendering the positioning and trace discovery out of service until the channel cleared up, which it never did. Politecast is a mechanism implicit in many other schemes such as ACKs in reliable unicasts or wake up probes in receiver initiated MAC protocols, but we see value in explicitly lifting it out, making it a generic mechanism for leveraging application level knowledge to save power.
+<br><br><br>
+<b>How did the positioning and trace discovery work?</b><br>
+The infrastructure transmitted a small radio beacon each second with any traces piggybacked. It was just a small packet basically saying "You are at 23.0 and I have trace from YELLOW (serial 14) and BLUE (serial 93)". They were transmitted at a lower than maximum transmission power setting, tuned for some of the nodes according to physical location, to reduce pointless overhearing and to reduce the neighbor table size in the mobile node. As the transmission rate was known, the amount of received beacons per time unit and RSSI was used as a basis for proximity approximation, which is a more correct term in this case. This worked fairly well but we did encounter some false positives. How many is unknown as we unfortunately do not have ground truth, but this was noticed when debriefing users after usage.
+<br><br>  
+<!--Did you encounter any unexpected problems?-->
+<!--  Yes! Failures such as dropping a Lega, a user pressing the button so hard that it goes through the guidance tracks and gets stuck and the failure of the plastic shell to keep together due to broken pegs. Other failures are for example, when the battery potential went south, the servo motor embedded turn potentiometer voltage range became too low and the node believed it was leaving a trace. The ADC readings were useless if the radio was transmitting or the motor running. The inside space of the plastic shell was too small to house everything so we moved to AAA instead of AA batteries. There were quite a few software errors as well of course; the usual -->
+</p>
+
+
+
+<h1>Links, contacts</h1>
+<p>
+<a href="mailto:marcus.lunden@gmail.com">Email me</a><br>
+<a href="https://www.sics.se/people/jarmo">Jarmo Laaksolahti, project leader</a><br>
+<a href="http://www.bithappens.se/resources/papers/The%20Lega%20-%20a%20device%20for%20leaving%20and%20finding%20tactile%20traces%20-%20TEI%2011%20-%20p193-laaksolahti.pdf">Lega paper</a><br>
+<a href="http://www.bithappens.se/resources/papers/The%20politecast%20communication%20primitive%20for%20low-power%20wireless%20-%20ACM%20CCR%2011-04%20-%20p31-lunden.pdf">Politecast paper</a><br>
+<a href="http://www.sics.se/projects/supple">The Supple project</a><br>
+<a href="http://designingsupplesystems.blogspot.com/">Supple project (obsolete) blog</a><br>
+<a href="http://www.sics.se">SICS</a><br>
+<a href="http://www.mobilelifecentre.org/">MobileLife Centre</a><br>
+<a href="http://www.liljevalchs.se/english/">Liljevalchs art exhibition</a><br>
+<br><br><br>
+<b><a href="http://www.bithappens.se/blog">Back to BitHappens blog</a><br></b>
+
+</div>
+<div id="rightside" style="height:100px;width:15%;float:left;"> </div>
+</p>
+
+<br><br><br><br><br>
+
+
+</BODY>
+</html>
