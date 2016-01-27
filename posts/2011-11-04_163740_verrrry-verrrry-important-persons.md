@@ -32,41 +32,65 @@ Lastly, collapsed in bed.
 Sorry for long post, but so much happened today and I wanted to put it down here as it acts a little bit as my travel diary.
 
 My hotel room, 19th floor, Fuxuan hotel.
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\" alt=\"20111104-235229.jpg\" class=\"alignnone size-full\" /></a>
 
-<br /><br />
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\" alt=\"20111104-235229.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
 Very mixed messages.
-<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\" alt=\"20111104-235406.jpg\" class=\"alignnone size-full\" /></a>
 
-<br /><br />
-some eventcenter where the first day presentations were held. <br />
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\" alt=\"20111104-235406.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
+some eventcenter where the first day presentations were held. 
+
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235502.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235502.jpg\" alt=\"20111104-235502.jpg\" class=\"alignnone size-full\" /></a>
 
 
 
-<br />
+
+
 Oh my....
-<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\" alt=\"20111104-235717.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\" alt=\"20111104-235717.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Presentations.. First guy ran over his time by half an hour..
-<br />
+
+Presentations.. First guy ran over his time by half an hour..
+
+
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-000845.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-000845.jpg\" alt=\"20111105-000845.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Oooh yes..<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001033.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001033.jpg\" alt=\"20111105-001033.jpg\" class=\"alignnone size-full\" /></a>
+
+Oooh yes..
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001033.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001033.jpg\" alt=\"20111105-001033.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Ye olde village<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001111.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001111.jpg\" alt=\"20111105-001111.jpg\" class=\"alignnone size-full\" /></a>
+
+Ye olde village
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001111.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001111.jpg\" alt=\"20111105-001111.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Crabs someone?<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001200.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001200.jpg\" alt=\"20111105-001200.jpg\" class=\"alignnone size-full\" /></a>
+
+Crabs someone?
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001200.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001200.jpg\" alt=\"20111105-001200.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Or pork?<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001233.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001233.jpg\" alt=\"20111105-001233.jpg\" class=\"alignnone size-full\" /></a>
+
+Or pork?
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001233.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001233.jpg\" alt=\"20111105-001233.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001325.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001325.jpg\" alt=\"20111105-001325.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Maglev-train tracks<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001345.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001345.jpg\" alt=\"20111105-001345.jpg\" class=\"alignnone size-full\" /></a>
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001325.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001325.jpg\" alt=\"20111105-001325.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+Maglev-train tracks
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001345.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001345.jpg\" alt=\"20111105-001345.jpg\" class=\"alignnone size-full\" /></a>

@@ -32,25 +32,39 @@ Lastly, collapsed in bed.
 Sorry for long post, but so much happened today and I wanted to put it down here as it acts a little bit as my travel diary.
 
 My hotel room, 19th floor, Fuxuan hotel.
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\" alt=\"20111104-235229.jpg\" class=\"alignnone size-full\" /></a>
 
-<br /><br />
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235229.jpg\" alt=\"20111104-235229.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
 Very conflicting messages.
-<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\" alt=\"20111104-235406.jpg\" class=\"alignnone size-full\" /></a>
 
-<br /><br />
-some eventcenter where the first day presentations were held. <br />
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235406.jpg\" alt=\"20111104-235406.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
+some eventcenter where the first day presentations were held. 
+
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235502.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235502.jpg\" alt=\"20111104-235502.jpg\" class=\"alignnone size-full\" /></a>
 
 
 
-<br />
+
+
 Oh my....
-<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\" alt=\"20111104-235717.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235717.jpg\" alt=\"20111104-235717.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br /><br />
+
+
+
 Hosts, assistants, students, guests and foooood!
-<br /><br />
+
+
+
 
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\" alt=\"20111104-235802.jpg\" class=\"alignnone size-full\" /></a>

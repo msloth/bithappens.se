@@ -10,9 +10,9 @@ Itunes didn\'t like me though so it kept saying <strong>\"this device is not eli
 * sync and backup the phone first! (sync, then rightclick and choose \'backup\', maybe not necessary with both?)
 * downloaded the 4.3.3 restore IPSW (google for it)
 * removed the gs.apple.com entry in hosts-file (entry added automatically when jailbreaking, if Itunes finds it, it will stop with error 1013); enter
-<code>
+`
 sudo nano /etc/hosts
-</code> 
+` 
 quit+save by ctrl+X, then Y, then enter
 * switched off the phone
 * plugged it in with USB

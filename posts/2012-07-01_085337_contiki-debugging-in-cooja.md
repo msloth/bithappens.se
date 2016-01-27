@@ -35,11 +35,11 @@ In your <strong>project sourcefile</strong>
   shell_file_init();
   shell_time_init();
   shell_ps_init();
-  shell_coffee_init(); [/c]
+  shell_coffee_init(); ```
 
 In your <strong>Makefile</strong>
 
-[c ruler=\"true\"]APPS=serial-shell[/c]
+[c ruler=\"true\"]APPS=serial-shell```
 
 
 Note: If you get an error like ‘no rule for make all’ when compiling, try moving that line up or down in the Makefile.
@@ -67,4 +67,4 @@ PROCESS_END();
 }
 ...
 
-shell_register_command(&amp;utog_command);[/c]
+shell_register_command(&amp;utog_command);```

@@ -9,12 +9,20 @@ To get started, you might want and/or need the following:
 <a href=\"http://www.bithappens.se/random/contiki-debugging/ContikiBootcamp-Handout.pdf\">the talk in handout-format</a>, a <a href=\"http://www.bithappens.se/random/contiki-debugging/ContikiBootcamp-Slides.pdf\">few slides</a>, and the source code: <a href=\"http://www.bithappens.se/random/contiki-debugging/Makefile\">Makefile</a>, <a href=\"http://www.bithappens.se/random/contiki-debugging/silent.c\">a silent node</a> and a <a href=\"http://www.bithappens.se/random/contiki-debugging/broadcaster.c\">periodic broadcasting node</a>, and finally a working <a href=\"http://www.contiki-os.org\">Contiki copy</a> (check out the Instant Contiki virtual machine with all tools set up from the beginning).
 
 In short this is what I\'ll discuss:
-<ul>
-	<li>Serial Shell</li>
-	<li>MSPSim</li>
-	<li>Cooja</li>
-	<li>the Mobility plugin</li>
-</ul>
+
+
+
+	*Serial Shell
+
+	*MSPSim
+
+	*Cooja
+
+	*the Mobility plugin
+
+
+
+
 &nbsp;
 
 All set? Let\'s get going!
@@ -33,11 +41,11 @@ In your <strong>project sourcefile</strong>
   shell_file_init();
   shell_time_init();
   shell_ps_init();
-  shell_coffee_init(); [/c]
+  shell_coffee_init(); ```
 
 In your <strong>Makefile</strong>
 
-[c ruler=\"true\"]APPS=serial-shell[/c]
+[c ruler=\"true\"]APPS=serial-shell```
 
 Note: If you get an error like ‘no rule for make all’ when compiling, try moving that line up or down in the Makefile.
 
@@ -64,4 +72,4 @@ PROCESS_END();
 }
 ...
 
-shell_register_command(&amp;utog_command);[/c]
+shell_register_command(&amp;utog_command);```

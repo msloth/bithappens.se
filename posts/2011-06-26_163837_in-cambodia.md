@@ -12,13 +12,19 @@ Siem Reap has a lot of similarities with Sharm el Sheik/Egypt. Similar spacing b
 Tomorrow we\'ll meet the Tuktukdriver at 0440 for a sunriseview of Angkor wat and then on to Ta Prohm. Rise and shine! :)
 
 Delicious sandwich ;)
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113347.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113347.jpg\" alt=\"20110626-113347.jpg\" class=\"alignnone size-full\" /></a>
+
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113347.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113347.jpg\" alt=\"20110626-113347.jpg\" class=\"alignnone size-full\" /></a>
 
 Johan enjoying
 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113424.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113424.jpg\" alt=\"20110626-113424.jpg\" class=\"alignnone size-full\" /></a>
+
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113424.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113424.jpg\" alt=\"20110626-113424.jpg\" class=\"alignnone size-full\" /></a>
 
 
 Nice hotelroom, almost lives up to my standards ;) Cost, 35€ for both, one night. In Cambodia, USD is used the most and Cambodian Riel only as change to max 1 $. 
 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113803.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113803.jpg\" alt=\"20110626-113803.jpg\" class=\"alignnone size-full\" /></a>
+
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113803.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/06/20110626-113803.jpg\" alt=\"20110626-113803.jpg\" class=\"alignnone size-full\" /></a>

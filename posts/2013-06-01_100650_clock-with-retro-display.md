@@ -3,8 +3,10 @@ layout: post
 title: Clock with retro display
 ---
 
-<h2>HPDL-1414 clock</h2>
-After having ported Contiki to the Launchpad, I was eager on doing something with it. I built this simple clock with a vintage <em>HPDL-1414</em> \"smart four-character 16-segment alphanumeric\" display and a <em>msp430g2553</em>.
+
+## HPDL-1414 clock
+
+After having ported Contiki to the Launchpad, I was eager on doing something with it. I built this simple clock with a vintage *HPDL-1414* \"smart four-character 16-segment alphanumeric\" display and a *msp430g2553*.
 
 Video bootup
 <iframe width=\"640\" height=\"360\" src=\"https://www.youtube-nocookie.com/embed/X6pWpAnn9J8\" frameborder=\"0\" allowfullscreen></iframe>

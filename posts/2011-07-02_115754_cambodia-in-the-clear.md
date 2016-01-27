@@ -9,4 +9,6 @@ Siem Reap is a small town, ca 10.000 inhabitants, but it has a club I feel Stock
 
 Flights to Ho Chi Minh City in Vietnam are about 170 USD so we took a night bus for 20 instead. We got ripped of though because it wasn\'t the kind of bus he showed us (higher comfort, and that matters when the trip is 12+ hours). We finished off Siem Reap with some amazingly good food. 
 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/07/20110702-065739.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/07/20110702-065739.jpg\" alt=\"20110702-065739.jpg\" class=\"alignnone size-full\" /></a>
+
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/07/20110702-065739.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/07/20110702-065739.jpg\" alt=\"20110702-065739.jpg\" class=\"alignnone size-full\" /></a>

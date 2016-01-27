@@ -3,7 +3,7 @@ layout: post
 title: Funky Chungking Mansions
 ---
 
-I had heard that there are many guesthouses at the <em>Chungking Mansions</em> building in downtown HK. In fact, there are about 200 of them apparently (I read somewhere). Now, some of them are better than others and if you, like me, are arriving at 21 o\'clock, tired, <em>looking</em> tired, there is a small chance for you to get the best offers from the indian touts.
+I had heard that there are many guesthouses at the *Chungking Mansions* building in downtown HK. In fact, there are about 200 of them apparently (I read somewhere). Now, some of them are better than others and if you, like me, are arriving at 21 o\'clock, tired, *looking* tired, there is a small chance for you to get the best offers from the indian touts.
 
 I waved off a few, declined others and went to 5th floor w another. So I stayed one night at Kamals. The cleanliness was ok, but sth that I didn\'t notice when looking at the room was the smell, like an indian kitchen. I thought it would go away, but it didn\'t. I did. The smell won.
 
@@ -15,10 +15,26 @@ CKM is full of indian touts. They are eeeeverywhere, touting their touting tout.
 
 
 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001936.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001936.jpg\" alt=\"20110926-001936.jpg\" class=\"alignnone size-full\" /></a><br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001951.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001951.jpg\" alt=\"20110926-001951.jpg\" class=\"alignnone size-full\" /></a><br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002006.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002006.jpg\" alt=\"20110926-002006.jpg\" class=\"alignnone size-full\" /></a><br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002022.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002022.jpg\" alt=\"20110926-002022.jpg\" class=\"alignnone size-full\" /></a><br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002038.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002038.jpg\" alt=\"20110926-002038.jpg\" class=\"alignnone size-full\" /></a>
 
-My room at Kamals guesthouse.<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002114.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002114.jpg\" alt=\"20110926-002114.jpg\" class=\"alignnone size-full\" /></a><br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002151.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002151.jpg\" alt=\"20110926-002151.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001936.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001936.jpg\" alt=\"20110926-001936.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001951.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-001951.jpg\" alt=\"20110926-001951.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002006.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002006.jpg\" alt=\"20110926-002006.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002022.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002022.jpg\" alt=\"20110926-002022.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002038.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002038.jpg\" alt=\"20110926-002038.jpg\" class=\"alignnone size-full\" /></a>
+
+My room at Kamals guesthouse.
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002114.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002114.jpg\" alt=\"20110926-002114.jpg\" class=\"alignnone size-full\" /></a>
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002151.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002151.jpg\" alt=\"20110926-002151.jpg\" class=\"alignnone size-full\" /></a>
 
 
 The elevators on the bottom floor, always busy. Walk a bit further in and you\'ll find less busy ones. 
-<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002737.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002737.jpg\" alt=\"20110926-002737.jpg\" class=\"alignnone size-full\" /></a>
+
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002737.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/09/20110926-002737.jpg\" alt=\"20110926-002737.jpg\" class=\"alignnone size-full\" /></a>

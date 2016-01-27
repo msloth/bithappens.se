@@ -9,17 +9,27 @@ To get started, you might want and/or need the following:
 <a href=\"http://www.bithappens.se/random/contiki-debugging/ContikiBootcamp-Handout.pdf\">the talk in handout-format</a>, a <a href=\"http://www.bithappens.se/random/contiki-debugging/ContikiBootcamp-Slides.pdf\">few slides</a>, and the source code: <a href=\"http://www.bithappens.se/random/contiki-debugging/Makefile\">Makefile</a>, <a href=\"http://www.bithappens.se/random/contiki-debugging/silent.c\">a silent node</a> and a <a href=\"http://www.bithappens.se/random/contiki-debugging/broadcaster.c\">periodic broadcasting node</a>, and finally a working <a href=\"http://www.contiki-os.org\">Contiki copy</a> (check out the Instant Contiki virtual machine with all tools set up from the beginning).
 
 In short this is what I\'ll discuss:
-<ul>
-	<li>Serial Shell</li>
-	<li>MSPSim</li>
-	<li>Cooja</li>
-	<li>the Mobility plugin</li>
-</ul>
+
+
+
+	*Serial Shell
+
+	*MSPSim
+
+	*Cooja
+
+	*the Mobility plugin
+
+
+
+
 All set? Let\'s get going!
 <!--more-->
-<h2>Contiki Serial Shell</h2>
+
+## Contiki Serial Shell
+
 The Contiki Serial Shell is a UNIX-­style shell that allows for text‐based interaction, including features such as piping data, run in background etc. Having shell running on a mote allows for simple interaction and testing. The drawback is that it uses precious ROM/RAM space; hence it is not used in Contiki per default but must be added in the following way.
-In your <code>project sourcefile</code>
+In your `project sourcefile`
 
 [c ruler=\"true\"]  #include &quot;shell.h&quot;
   #include &quot;serial-shell.h&quot;
@@ -30,15 +40,15 @@ In your <code>project sourcefile</code>
   shell_file_init();
   shell_time_init();
   shell_ps_init();
-  shell_coffee_init(); [/c]
+  shell_coffee_init(); ```
 
-In your <code>Makefile</code>
+In your `Makefile`
 
-[c ruler=\"true\"]APPS=serial-shell[/c]
+[c ruler=\"true\"]APPS=serial-shell```
 
-Note: If you get an error like <code>no rule for make all</code> when compiling, try moving that line up or down in the Makefile.
+Note: If you get an error like `no rule for make all` when compiling, try moving that line up or down in the Makefile.
 
-Each <code>shell_X_init()</code> adds a set of features to shell, hence if you run out of space on the mote try removing these. They (above are examples, there are more) are located in <code>contiki-2.x/apps/shell/</code> in files like <code>shell-file.c</code>. For what features they come with, check the source file.
+Each `shell_X_init()` adds a set of features to shell, hence if you run out of space on the mote try removing these. They (above are examples, there are more) are located in `contiki-2.x/apps/shell/` in files like `shell-file.c`. For what features they come with, check the source file.
 Basic shell commands and usage, using shell_coffee (the Coffee file system), shell-time and shell-sky as examples:
 
 • List available commands ?
@@ -61,4 +71,4 @@ PROCESS_END();
 }
 ...
 
-shell_register_command(&amp;utog_command);[/c]
+shell_register_command(&amp;utog_command);```

@@ -15,19 +15,35 @@ Tomorrow I will check out the Marriage Market, where parents meet trying to find
 
 The Marriage Market is in a park, I hope I will find it.
 
-<br />Maglev station<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\" alt=\"20111105-002553.jpg\" class=\"alignnone size-full\" /></a>
+
+Maglev station
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\" alt=\"20111105-002553.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Yep, <ul>
+
+Yep, 
+
+
 that
-</ul>
- fast!<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\" alt=\"20111105-002634.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />I heard it\'s common with mopeds..<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\" alt=\"20111105-002717.jpg\" class=\"alignnone size-full\" /></a>
+
+ fast!
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\" alt=\"20111105-002634.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />To me it feels like a lot of the security is just for show. Eg, in Shanghai (and Hong Kong and Beijing and Shenzhen) metro, you let sec personnell X-ray your bags etc when going into the metro, but they rarely actually <ul>
+
+I heard it\'s common with mopeds..
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\" alt=\"20111105-002717.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+To me it feels like a lot of the security is just for show. Eg, in Shanghai (and Hong Kong and Beijing and Shenzhen) metro, you let sec personnell X-ray your bags etc when going into the metro, but they rarely actually 
+
+
 look
-</ul>
- at the screens!<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\" alt=\"20111105-002757.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+ at the screens!
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\" alt=\"20111105-002757.jpg\" class=\"alignnone size-full\" /></a>

@@ -21,35 +21,55 @@ Sorry for long post, but so much happened today and I wanted to put it down here
 
 
 
-<br /><br />
 
 
 
-<br />Poster one.<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001512.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001512.jpg\" alt=\"20111105-001512.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Poster boys. Prof Lu had forgot the other in his wifes car. Thank god, cause that one had large pictures of us that they had gotten from the web, ie small ~200*150 pixels big, and not the best either.<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001549.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001549.jpg\" alt=\"20111105-001549.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Thiemo talks. <br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001815.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001815.jpg\" alt=\"20111105-001815.jpg\" class=\"alignnone size-full\" /></a>
+Poster one.
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001512.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001512.jpg\" alt=\"20111105-001512.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Hosts, assistants, students, guests and foooood!<br />
+
+Poster boys. Prof Lu had forgot the other in his wifes car. Thank god, cause that one had large pictures of us that they had gotten from the web, ie small ~200*150 pixels big, and not the best either.
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001549.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001549.jpg\" alt=\"20111105-001549.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+Thiemo talks. 
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001815.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001815.jpg\" alt=\"20111105-001815.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+Hosts, assistants, students, guests and foooood!
+
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\" alt=\"20111104-235802.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Fermented egg.<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001936.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001936.jpg\" alt=\"20111105-001936.jpg\" class=\"alignnone size-full\" /></a>
 
-
-<br />Ear of pig, delicacy. Apparently. <br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002010.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002010.jpg\" alt=\"20111105-002010.jpg\" class=\"alignnone size-full\" /></a>
-
-
-<br />Lunch hall for students<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002102.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002102.jpg\" alt=\"20111105-002102.jpg\" class=\"alignnone size-full\" /></a>
+Fermented egg.
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001936.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-001936.jpg\" alt=\"20111105-001936.jpg\" class=\"alignnone size-full\" /></a>
 
 
 
-<br />Just <em>some</em> of the food we had for dinner.<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002207.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002207.jpg\" alt=\"20111105-002207.jpg\" class=\"alignnone size-full\" /></a>
+Ear of pig, delicacy. Apparently. 
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002010.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002010.jpg\" alt=\"20111105-002010.jpg\" class=\"alignnone size-full\" /></a>
 
 
 
-<br />Thiemo at hands-on<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-004000.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-004000.jpg\" alt=\"20111105-004000.jpg\" class=\"alignnone size-full\" /></a>
+Lunch hall for students
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002102.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002102.jpg\" alt=\"20111105-002102.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
+Just *some* of the food we had for dinner.
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002207.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002207.jpg\" alt=\"20111105-002207.jpg\" class=\"alignnone size-full\" /></a>
+
+
+
+
+Thiemo at hands-on
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-004000.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-004000.jpg\" alt=\"20111105-004000.jpg\" class=\"alignnone size-full\" /></a>

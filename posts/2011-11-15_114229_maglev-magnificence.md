@@ -7,10 +7,14 @@ So, I\'m staying a while in China after all the hard work is done. Today was the
 
 Maglev is actually more of a demo of the technology rather than sth that is really needed. It\'s a short track from Longyuan Road metro station to Pudong airport (the metro continues all the way to the airport already). It costs 80rmb for a two way ticket and the ride takes about 7 minutes one way. What\'s cool is that the entire train is levitated (floating in the air) 1 cm above the magnetic tracks!! This makes it possible to accelerate to amazing 430 km/h!! (if you go, beware that during most of the day, they limit the speed to a measly 300km/h, it\'s only during two intervals per day they run at 430). During test runs they hit more than 500.
 
-<br />Maglev station<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\" alt=\"20111105-002553.jpg\" class=\"alignnone size-full\" /></a>
+
+Maglev station
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002553.jpg\" alt=\"20111105-002553.jpg\" class=\"alignnone size-full\" /></a>
 
 
-<br />Yep, <strong>that</strong> fast!<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\" alt=\"20111105-002634.jpg\" class=\"alignnone size-full\" /></a>
+
+Yep, <strong>that</strong> fast!
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\" alt=\"20111105-002634.jpg\" class=\"alignnone size-full\" /></a>
 
 
 
@@ -25,8 +29,14 @@ Tomorrow I will check out the Marriage Market, where parents meet trying to find
 
 The Marriage Market is in a park, I hope I will find it.
 
-<br />I heard it\'s common with mopeds..<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\" alt=\"20111105-002717.jpg\" class=\"alignnone size-full\" /></a>
 
-<br />To me it feels like a lot of the security is just for show. Eg, in Shanghai (and Hong Kong and Beijing and Shenzhen) metro, you let sec personnell X-ray your bags etc when going into the metro, but they rarely actually <em>look</em> at the screens!<br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\" alt=\"20111105-002757.jpg\" class=\"alignnone size-full\" /></a>
+I heard it\'s common with mopeds..
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002717.jpg\" alt=\"20111105-002717.jpg\" class=\"alignnone size-full\" /></a>
 
-<br />Took a walk downtown to The Bund for shooting the skyline at dusk. <br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-003441.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-003441.jpg\" alt=\"20111105-003441.jpg\" class=\"alignnone size-full\" /></a>
+
+To me it feels like a lot of the security is just for show. Eg, in Shanghai (and Hong Kong and Beijing and Shenzhen) metro, you let sec personnell X-ray your bags etc when going into the metro, but they rarely actually *look* at the screens!
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002757.jpg\" alt=\"20111105-002757.jpg\" class=\"alignnone size-full\" /></a>
+
+
+Took a walk downtown to The Bund for shooting the skyline at dusk. 
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-003441.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-003441.jpg\" alt=\"20111105-003441.jpg\" class=\"alignnone size-full\" /></a>

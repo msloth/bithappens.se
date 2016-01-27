@@ -21,7 +21,11 @@ Sorry for long post, but so much happened today and I wanted to put it down here
 
 
 
-<br /><br />
+
+
+
 Hosts, assistants, students, guests and foooood!
-<br /><br />
+
+
+
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235802.jpg\" alt=\"20111104-235802.jpg\" class=\"alignnone size-full\" /></a>

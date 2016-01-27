@@ -3,7 +3,9 @@ layout: post
 title: Simple yet efficient wireless with Contiki
 ---
 
-<h2>SimpleRDC</h2>
+
+## SimpleRDC
+
 
 Meta: this is a long post with plenty of pictures. Click on the pictures to see them in full size.
 
@@ -27,7 +29,9 @@ We periodically wake up and listen for a while before going to sleep to save ene
 
 If we want to transmit a broadcast, ie to any neighbor that may hear the message, we transmit for a sleep period plus some guard time, and turn off the radio between each transmission. With unicasts, ie one specified destination, we can optimize this a bit. If the receiver tells us when it has received the message, we can end the transmission train early. Thus, we keep the radio on and listen for this short acknowledgment (ACK). We can tune this to send and receive ACKs quickly, thus reducing time between transmissions, and as a byproduct of this reduce the on-time in each wake-up.
 
-<h3>Simulations</h3>
+
+### Simulations
+
 
 Let\'s compare a broadcast with a unicast.
 
@@ -49,7 +53,9 @@ The unicast on the other hand keeps the radio and hopes for an ACK. When it rece
 <a href=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/cooja/4-SimpleRDC-Cooja-lucky-unicast.png\"><img src=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/cooja/4-SimpleRDC-Cooja-lucky-unicast.png\" class=\"alignnone size-full\" /></a>
 If the sender is lucky, it starts transmitting at just the right time and can finish very early, here after just one transmission.
 
-<h3>Sniffing the SPI</h3>
+
+### Sniffing the SPI
+
 
 Simulating the RDC is very convenient when developing as you can just do a reload and replay the same scenario over and over again. It\'s also fast, this was running at 10-20 times real-time. However, to validate this working in real life too, I looked at the SPI communication between the microcontroller and the radio transceiver. This was done with a Saleae Logic 16 logic analyzer, probing the pin header on one of the Launchpads when running a simple application. On the top four channels we see the SPI: MISO, MOSI, CLK and CS. Then, we see the GDO0 pin from the radio, configured as staying high while receiving or sending, and low otherwise (ie off or simply listening). Channel 5 is an LED toggling when we have sent something.
 
@@ -89,7 +95,9 @@ This is a 4 millisecond channel sample. First issue the command to turn the radi
 <a href=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/logic/6-SimpleRDC-zoom-in-on-a-transmission-go-idle,load-fifo,tx.png\"><img src=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/logic/6-SimpleRDC-zoom-in-on-a-transmission-go-idle,load-fifo,tx.png\" class=\"alignnone size-full\" /></a>
 A single transmission: load the transmission FIFO buffer in the radio, then issue the \"transmit\" command, wait for the transmission to end. The bump on channel 4 is the GPIO on the radio being high during the transmission, so we can see and measure exactly how long time this takes (0.64 ms). What we see here is basically corresponding to one of the blue bars in the Cooja simulation screenshots earlier.
 
-<h3>Bring out the \'scope</h3>
+
+### Bring out the \'scope
+
 
 So far, we have simulated it so we had a pretty good understanding of how it works, checked the SPI so we know the proper commands are being issued, the timings line up with what we expect from Cooja etc. But, even now we would like to have more proof that it works as intended. There may still be bugs that end up consuming lots of power without it showing up on either Cooja or the Logic. Time to use an oscilloscope and measure the power consumption. I used a Picoscope 3206B dual-channel, 200 MHz bandwidth, 8-bit oscilloscope measuring the voltage drop over a shunt resistor of 10 ohm, 1%, in series with the Vcc that powers the microcontroller, the Launchpad, and the CC2500 radio.
 
@@ -145,7 +153,7 @@ Close-up of the start of a broadcast. When waking up, we see that it is time to 
 
 
 <a href=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/oscilloscope/8-CSMA-and-start-of-unicast.png\"><img src=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/oscilloscope/8-CSMA-and-start-of-unicast.png\" class=\"alignnone size-full\" /></a>
-Close-up of the start of a unicast. Same as the broadcast, but we see how the radio is kept on between transmissions. Notice how the power consumption (proxy as the voltage drop here) is <em>higher</em> when listening than transmitting as we need to keep amplifiers, filters, logic etc running and searching for the pre-amble of a packet.
+Close-up of the start of a unicast. Same as the broadcast, but we see how the radio is kept on between transmissions. Notice how the power consumption (proxy as the voltage drop here) is *higher* when listening than transmitting as we need to keep amplifiers, filters, logic etc running and searching for the pre-amble of a packet.
 
 
 
@@ -159,7 +167,9 @@ One transmission and listen for ACK. We measure the width of the listen to 2 ms,
 <a href=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/oscilloscope/10-tx-with-LED-toggle-to-off-ca-3,7-mA-difference-on-off.png\"><img src=\"http://www.bithappens.se/resources/pictures/blog/simplerdcpics/oscilloscope/10-tx-with-LED-toggle-to-off-ca-3,7-mA-difference-on-off.png\" class=\"alignnone size-full\" /></a>
 In this image we see the LED turning off after having transmitted, lowering the baseline power consumption by ca 3.7 * 3.3 = 12.21 mW. The LEDs (this was the red) seems like low-power LEDs. Usually normal red LEDs require about 20 mA -> 60 mW, as much as the radio.
 
-<h3>Verdict</h3>
+
+### Verdict
+
 
 So, with SimpleRDC we have a radio duty cycling layer that needs no setting up or synchronization, while still having a 3% idle listening duty cycle and 65 ms average latency. We have verified it with simulations, looking at the radio to microcontroller SPI communication, and at the power consumption with an oscilloscope. And, we can run it on a 512 byte RAM microcontroller - while still having space for an operating system, drivers, and applications!
 
@@ -167,7 +177,9 @@ Can it be made smaller? Not much, if any. We have already ripped out pretty much
 
 Can it be more efficient? Sure! If we can reduce the time from receiving a frame to sending the ACK (including downloading the received frame, checking address, loading the ACK into the radio, and the transmission time), then we don\'t need as long wake-up checks (currently 2 ms). Another approach is reducing the channel check rate to, say, checking every 500 ms instead of 125 ms. Then we get a duty cycle of ca 0.75% but an average latency of 250 ms and reduced bandwidth as there is more traffic per transmission. However, depending on the application, this might be the right way to go.
 
-<h3>Post scriptum</h3>
+
+### Post scriptum
+
 
 I noticed a bug while measuring with the oscilloscope. It\'s now fixed, but I didn\'t notice it before with the Logic or in simulations. The radio did sometimes end up stuck in an almost-rx-state, as seen by the power consumption. It was not able to power off completely between channel samples but remained in almost 20 mA current draw continuously. It always happened after a channel sample, so I think that it received a corrupt frame (or noise) with a very large length-byte (first byte after sync bytes is the length byte, indicating the length of the frame), putting the radio in an erroneous state (the errata Rx FIFO overflow seems like a likely culprit). The fix consists of checking for FIFO overflows, and periodically checking if the radio correctly powered down, otherwise issuing a reset and re-init of the radio. That seemed to fix it, but remains to be seen until I\'ve tested it long enough.
 

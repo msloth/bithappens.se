@@ -3,7 +3,7 @@ layout: post
 title: Brownian Motion aka Sleepless in Shanghai
 ---
 
-The day after the Marriage Market I kept thinking of how different our cultures and societies are. And, how different China is from what I expected before I came. I expected something more..... communism, when it really is <em>capitalism, consumerism</em> and <em>commersialism</em> (is that a word even? Nvm). It\'s likely the most capitalist country I\'ve ever seen actually. Everywhere you look, there are things for sale, stores and shopping malls. Likely, it\'s different in rural China. That\'ll be on my next trip here.
+The day after the Marriage Market I kept thinking of how different our cultures and societies are. And, how different China is from what I expected before I came. I expected something more..... communism, when it really is *capitalism, consumerism* and *commersialism* (is that a word even? Nvm). It\'s likely the most capitalist country I\'ve ever seen actually. Everywhere you look, there are things for sale, stores and shopping malls. Likely, it\'s different in rural China. That\'ll be on my next trip here.
 
 Today I wanted to go off the beaten path (worn expression that). I read about an area which had both a nice shopping district and some residential areas closeby (ie I need Starbucks daily, and I was still on the hunt for some things to bring home). There are construction sites all over Shanghai (China) and in this huge city, with increasing urbanisation from rural China, you don\'t build a house. You build an area. 4+ skyscrapers (with Swedish eyes, ie 10+ floors). That\'s the new stuff.
 

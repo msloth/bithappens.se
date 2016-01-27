@@ -11,4 +11,6 @@ So, a couple of days ago (the 31st of October), I suited up, took my luggage and
 
 Landed at 14 the 1st Nov, at Hongqia airport and took a taxi to the hotel, which was booked and paid for by the event organizers. I was so tired that I blacked out -not fell asleep!- a few times during the 1hour and 100RMB drive (as before, 1rmb-= 1 sek).
 
-My \"just gonna power nap a quickie\" turned into a 2 hour snooze-hitting balooza, and I missed out on Thiemos stroll downtown. Instead, I went out for sth to eat at 20 with the ambition to work when I got back. No dice grandpa.<br /><br /><a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235127.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235127.jpg\" alt=\"20111104-235127.jpg\" class=\"alignnone size-full\" /></a>
+My \"just gonna power nap a quickie\" turned into a 2 hour snooze-hitting balooza, and I missed out on Thiemos stroll downtown. Instead, I went out for sth to eat at 20 with the ambition to work when I got back. No dice grandpa.
+
+<a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235127.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111104-235127.jpg\" alt=\"20111104-235127.jpg\" class=\"alignnone size-full\" /></a>

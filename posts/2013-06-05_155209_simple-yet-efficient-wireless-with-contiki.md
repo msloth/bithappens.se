@@ -13,7 +13,9 @@ title: Simple yet efficient wireless with Contiki
 
 
 
-<h2>SimpleRDC</h2>
+
+## SimpleRDC
+
 
 This is a step forward in making wireless communication more easy and viable for extremely small systems. There already exist a number of protocols for low-power wireless. Most of them are quite complex and hence use much RAM and ROM which makes them unfeasible for the Launchpad and similarly constrained systems. This is a simple yet efficient radio duty-cycling protocol for Contiki that achieves 3% idle listening duty cycle while allowing for an average 65 ms latency with no prior contact or synchronization.
 

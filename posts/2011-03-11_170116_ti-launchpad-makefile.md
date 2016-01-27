@@ -8,19 +8,19 @@ title: TI Launchpad makefile
 The <a title=\"Launchpad\" href=\"http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29?DCMP=launchpad&amp;HQS=Other+OT+launchpadwiki\">TI Launchpad</a> is a small fun developers platform, perhaps most suited for beginners to microcontrollers. It retails for $4.30, comes with two simple MSP430 microcontrollers, a small PCB with two LEDs, pushbuttons, pin headers etc. It can be programmed via USB, either by the TI provided software, or, as I do, with msp-gcc and <a title=\"mspdebug\" href=\"http://mspdebug.sourceforge.net/\">mspdebug</a> in Linux. As I also program sensor nodes with <a title=\"Contiki\" href=\"http://www.sics.se/contiki\">Contiki</a>, I wanted the syntax to be similar, eg \"make upload\". I wrote a small makefile so that the following syntax can be used:
 
 compile and link the files
-[bash]make[/bash]
+`make`
 
 compile and upload to Launchpad
-[bash]make upload[/bash]
+`make upload`
 
 remove all temporary {object-, elf-, etc} files
-[bash]make clean[/bash]
+`make clean`
 
 erase the MSP430 in Launchpad
-[bash]make erase[/bash]
+`make erase`
 
 get size of the elf file
-[bash]make size[/bash]
+`make size`
 
 And here\'s the makefile itself. To adapt it to your project, just change the names stated under \'objects\' to your files, with an .o extension. In my file below, basic.c is the \'main\'file and vfd_driver.c is... a driver for a VFD display.
 
@@ -46,4 +46,4 @@ upload:
 	mspdebug rf2500 &quot;prog upload.elf&quot;
 
 size:
-	msp430-size upload.elf[/c]
+	msp430-size upload.elf```
