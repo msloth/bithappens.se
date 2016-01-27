@@ -12,13 +12,13 @@ In short this is what I\'ll discuss:
 
 
 
-	*Serial Shell
+	* Serial Shell
 
-	*MSPSim
+	* MSPSim
 
-	*Cooja
+	* Cooja
 
-	*the Mobility plugin
+	* the Mobility plugin
 
 
 
@@ -31,8 +31,8 @@ All set? Let\'s get going!
 The Contiki Serial Shell is a UNIX-­style shell that allows for text‐based interaction, including features such as piping data, run in background etc. Having shell running on a mote allows for simple interaction and testing. The drawback is that it uses precious ROM/RAM space; hence it is not used in Contiki per default but must be added in the following way.
 In your `project sourcefile`
 
-[c ruler=\"true\"]  #include &quot;shell.h&quot;
-  #include &quot;serial-shell.h&quot;
+[c ruler=\"true\"]  #include "shell.h"
+  #include "serial-shell.h"
   ...
   serial_shell_init();
   shell_sky_init();
@@ -60,12 +60,12 @@ Basic shell commands and usage, using shell_coffee (the Coffee file system), she
 • Same, write to file
 `sense | senseconv | write logfile.txt`
 • Periodically (every 2 seconds), forever (0), read sensors and append to `logfile.txt`, in background.`
-repeat 0 2 {Sense | senseconv | append logfile.txt} &amp;`
+repeat 0 2 {Sense | senseconv | append logfile.txt} &`
 
 This is how you create your own shell commands: first you need a process that is the actual command, then declare a SHELL_COMMAND and finally register that command with the serial shell.
 
-[c ruler=\"true\"]PROCESS(utoggle_process, &quot;Toggle lines&quot;);
-SHELL_COMMAND(utog_command, &quot;ut&quot;, &quot;ut: toggle lines&quot;, &amp;utoggle_process);
+[c ruler=\"true\"]PROCESS(utoggle_process, "Toggle lines");
+SHELL_COMMAND(utog_command, "ut", "ut: toggle lines", &utoggle_process);
 /* --------------------------------- */
 PROCESS_THREAD(utoggle_process, ev, data) {
 PROCESS_BEGIN();
@@ -74,7 +74,7 @@ PROCESS_END();
 }
 ...
 
-shell_register_command(&amp;utog_command);```
+shell_register_command(&utog_command);```
 
 ## MSPSim
 
@@ -100,19 +100,19 @@ If you are running a large simulation you can instead run
 Create a new simulation in menu `File/New Simulation`.
 Choose a radio propagation model (UDGM being probably the most simplistic as it only depends on distance and transmission power), random startup time (if you have several nodes they will start within this interval) and a seed for the random number generator.
 
-<strong>Add</strong> a Tmote Sky mote: `Mote Types/Create/Sky mote type`
-<strong>Name</strong> the type of mote you are creating (eg ‘Data sink’, ‘Sensor node’).
-<strong>Browse</strong> to find your source file (or precompiled binary), <strong>Compile</strong> and press <strong>Create</strong>. Enter how many you would like to have, press <strong>Create</strong>. Note that it/they now show as circles in Simulation Visualizer. For this, create one mote with `silent.c.`
+*Add* a Tmote Sky mote: `Mote Types/Create/Sky mote type`
+*Name* the type of mote you are creating (eg ‘Data sink’, ‘Sensor node’).
+*Browse* to find your source file (or precompiled binary), *Compile* and press *Create*. Enter how many you would like to have, press *Create*. Note that it/they now show as circles in Simulation Visualizer. For this, create one mote with `silent.c.`
 
-Explore the <strong>Control Panel;</strong> use the slider to set simulation speed: full, real time or with delay. Now set it to <strong>Real time</strong> (one click on the slider when at the left).
+Explore the *Control Panel;* use the slider to set simulation speed: full, real time or with delay. Now set it to *Real time* (one click on the slider when at the left).
 
-In <strong>Simulation Visualizer</strong>, press ‘Set visualizer skins’ and choose eg Mote IDs, LEDs, and 10m background grid. You can zoom in and out by holding <Ctrl> and clicking + dragging (on Mac). To view all nodes again, right click and choose ‘Reset viewpoint’.
+In *Simulation Visualizer*, press ‘Set visualizer skins’ and choose eg Mote IDs, LEDs, and 10m background grid. You can zoom in and out by holding <Ctrl> and clicking + dragging (on Mac). To view all nodes again, right click and choose ‘Reset viewpoint’.
 
-Explore the <strong>Timeline</strong>. This is a very useful tool. Timeline can show when the radio is on/listening (grey) or off, transmissions (blue is transmission, green is receiving, red is interference or collision (not received but “sensed”)), LEDs and watchpoints and breakpoints. Right click to zoom in/out.
+Explore the *Timeline*. This is a very useful tool. Timeline can show when the radio is on/listening (grey) or off, transmissions (blue is transmission, green is receiving, red is interference or collision (not received but “sensed”)), LEDs and watchpoints and breakpoints. Right click to zoom in/out.
 
-The <strong>log listener</strong> will contain all UART output from the motes. You can filter on ID or contents. Right click and choose ‘<strong>Mote specific coloring</strong>’.
+The *log listener* will contain all UART output from the motes. You can filter on ID or contents. Right click and choose ‘*Mote specific coloring*’.
 
-Start the simulation by pressing <strong>Start</strong> on the Control Panel. The mote should start periodic toggling of LEDs. Right click on it (in Simulation Visualizer) and choose ‘<strong>Show serial port on Sky</strong>’. This is where you access the Shell. Try typing ‘?’ to see available commands. Try the commands mentioned above under Shell.
+Start the simulation by pressing *Start* on the Control Panel. The mote should start periodic toggling of LEDs. Right click on it (in Simulation Visualizer) and choose ‘*Show serial port on Sky*’. This is where you access the Shell. Try typing ‘?’ to see available commands. Try the commands mentioned above under Shell.
 Use Timeline to zoom in to millisecond level to see how the power saving MAC protocol turns the radio on and off.
 
 
@@ -120,30 +120,30 @@ Use Timeline to zoom in to millisecond level to see how the power saving MAC pro
 
 Now we will create a small network with a subset of transmitters among receivers.
 
-Either start a new simulation (Ctrl + S) or add more motes to the already existing one. Create a total of <strong>3</strong> nodes with `<a href=\"http://www.bithappens.se/random/contiki-debugging/broadcaster.c\" title=\"broadcaster.c source code\">broadcaster.c</a>` and <strong>7</strong> with `<a href=\"http://www.bithappens.se/random/contiki-debugging/silent.c\" title=\"silent.c source code\">silent.c</a>`.
+Either start a new simulation (Ctrl + S) or add more motes to the already existing one. Create a total of *3* nodes with `<a href=\"http://www.bithappens.se/random/contiki-debugging/broadcaster.c\" title=\"broadcaster.c source code\">broadcaster.c</a>` and *7* with `<a href=\"http://www.bithappens.se/random/contiki-debugging/silent.c\" title=\"silent.c source code\">silent.c</a>`.
 Make sure you have zoomed out Timeline, chosen ‘Mote specific coloring’ on Log listener and set time to ‘Real time’ in Control Panel. Start the simulation and observe in Timeline how three motes are transmitting broadcasts. Zoom in to see how it looks on a smaller time scale.
 
 On any mote of your chosing, open the serial port and issue the command ‘ut’. This shows a COOJA feature useful in visualizing networks: by outputting a certain string, lines will be drawn in the Visualizer. Issue ‘ut’ again to remove them. For drawing a line between a node and one with ID 9, the software on the mote should do this:
-[c ruler=\"true\"]printf(&quot;#L 9 1\\n&quot;);```
+[c ruler=\"true\"]printf("#L 9 1\\n");```
 
 To remove the line again:
-[c ruler=\"true\"]printf(&quot;#L 9 0\\n&quot;);```
+[c ruler=\"true\"]printf("#L 9 0\\n");```
 
-Right click in Timeline, choose ‘<strong>Print statistics to the console</strong>’. Switch to the console; now you can see for how long time the radio has been on/transmitting/receiving, red/green/blue LED on/off etc. Using LEDs is a good debugging aid in time critical applications such as debugging code in a interrupt service routine as printf’s will both take too long time and also have a delay as it is printed out over UART.
+Right click in Timeline, choose ‘*Print statistics to the console*’. Switch to the console; now you can see for how long time the radio has been on/transmitting/receiving, red/green/blue LED on/off etc. Using LEDs is a good debugging aid in time critical applications such as debugging code in a interrupt service routine as printf’s will both take too long time and also have a delay as it is printed out over UART.
 
 
 ### More debugging tools
 
-In Simulation Visualizer, right click, ‘<strong>Open mote plugin</strong>’ contains some useful tools.
+In Simulation Visualizer, right click, ‘*Open mote plugin*’ contains some useful tools.
 
-<strong>Stack Watcher</strong> will show a graph of the stack and can help telling if a memory leak occurs.
-<strong>Variable watcher</strong> will let you read or write any variable, including the hardware registers in the MSP430.
-<strong>MSP CLI</strong> is a command line interface to MSPSim. From there, `reset` will reset the CPU, `logcalls > log.txt` will save the function calls to text file, `exec pwd` will show where that file is located, `stacktrace` will show the call stack.
-<strong>MSP Code Watcher</strong> will open a window where you can view currently executing assembler code, its corresponding c file and position. Expand the divider on the left to show these hidden windows. Under ‘Browse:’ you can choose a c-file to view and set watchpoints and breakpoints.
+*Stack Watcher* will show a graph of the stack and can help telling if a memory leak occurs.
+*Variable watcher* will let you read or write any variable, including the hardware registers in the MSP430.
+*MSP CLI* is a command line interface to MSPSim. From there, `reset` will reset the CPU, `logcalls > log.txt` will save the function calls to text file, `exec pwd` will show where that file is located, `stacktrace` will show the call stack.
+*MSP Code Watcher* will open a window where you can view currently executing assembler code, its corresponding c file and position. Expand the divider on the left to show these hidden windows. Under ‘Browse:’ you can choose a c-file to view and set watchpoints and breakpoints.
 
-There are a number of COOJA plugins available that are very useful as well. They are available through the main window menu ‘<strong>Plugins</strong>’.
-<strong>Radio Logger</strong> will log and show all radio messages transmitted: their content, sender and receivers. If there are a set, commonly occurring packet, you can assign it an alias so it will be more easily identified among all other packets.
-<strong>Buffer Listener</strong> is Variable Watcher on steroids. Set it (right click) to display the packet buffer (buffer/*packetbufptr) or any other memory space on a node. For example, declare a char array and print debug messages to it (much faster than to do a regular printf as it does not have
+There are a number of COOJA plugins available that are very useful as well. They are available through the main window menu ‘*Plugins*’.
+*Radio Logger* will log and show all radio messages transmitted: their content, sender and receivers. If there are a set, commonly occurring packet, you can assign it an alias so it will be more easily identified among all other packets.
+*Buffer Listener* is Variable Watcher on steroids. Set it (right click) to display the packet buffer (buffer/*packetbufptr) or any other memory space on a node. For example, declare a char array and print debug messages to it (much faster than to do a regular printf as it does not have
 to wait for the UART to complete) and monitor that.
 [c ruler=\"true\"]static char cooja_debug_string[100];
 snprintf(cooja_debug_string , 100, “My debuginfo: %u\\n”, var);```
@@ -152,7 +152,7 @@ and set Buffer Listener to monitor ‘Custom pointer’, enter name ‘cooja_deb
 
 ### Adding the Mobility plugin
 
-COOJA is very extendable: you can add plugins, visualizers, packet analyzers etc. <strong>Mobility</strong> is a plugin currently residing in the <a href=\"http://sourceforge.net/projects/contikiprojects/\" title=\"Contiki projects on Sourceforge\">Contiki Projects repository</a>.
+COOJA is very extendable: you can add plugins, visualizers, packet analyzers etc. *Mobility* is a plugin currently residing in the <a href=\"http://sourceforge.net/projects/contikiprojects/\" title=\"Contiki projects on Sourceforge\">Contiki Projects repository</a>.
 
 Mobility accepts a text file with position data for the motes in the simulation. There are a number of such position data generators on the Internet, or use data gathered from real deployments or measurements. At the end of this document is a link to small position data files I have generated using the Random Waypoint Mobility Model. NB that Mobility itself do not generate any position data, just handles the movement itself.
 
@@ -183,7 +183,7 @@ If you close the Mobility window, all movement will be stopped
 Mobility can be started at any time, even after simulation has run some time. It will always start from the top of the position data file however, so temporary stopping movement is not possible.
 
 *Format of position data file*
-The position data file is a <strong>space separated value file</strong> with each line indicating a COOJA node ID, time [s], X position [m] and Y position [m]. Comments are preceded with #.
+The position data file is a *space separated value file* with each line indicating a COOJA node ID, time [s], X position [m] and Y position [m]. Comments are preceded with #.
 
 Example of four nodes moving a little bit, from their starting positions to new positions 0.2 seconds later.
 ```# Comment

@@ -3,7 +3,7 @@ layout: post
 title: Vector graphics for your PCBs
 ---
 
-<strong>TL;DR: This tool converts SVG vector graphics to Cadsoft Eagle polygon. Get it here, with instructions: https://github.com/msloth/eagle-poly-from-vgfx</strong>
+*TL;DR: This tool converts SVG vector graphics to Cadsoft Eagle polygon. Get it here, with instructions: https://github.com/msloth/eagle-poly-from-vgfx*
 
 Technology can even in its most raw and bare form certainly be beautiful. The bottom of a motherboard, with long, parallell, impedance-matched traces from PCI-connectors is a good example. A large BGA is another, with traces extending in every direction.
 

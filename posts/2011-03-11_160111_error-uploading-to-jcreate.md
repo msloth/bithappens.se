@@ -12,12 +12,12 @@ Now, trying with the same this as super user worked,
 ...text
 something like: -bsl=mini```
 So, a permissions error then. This was solved by adding a rules file for USB:
-```$ sudo gedit /etc/udev/rules.d/5-usb.rules &amp;
+```$ sudo gedit /etc/udev/rules.d/5-usb.rules &
 #Add the following line:
 SUBSYSTEM==\"usb\", ENV{DEVTYPE}==\"usb_device\", GROUP=\"dialout\", MODE=\"0664\"```
 then reload rules by:
 ```$ sudo udevadm control --reload-rules```
-&nbsp;
+ 
 
 Cred to Niklas W that came up with this solution...
 

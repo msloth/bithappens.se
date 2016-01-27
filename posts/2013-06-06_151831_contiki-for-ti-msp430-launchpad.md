@@ -40,13 +40,13 @@ You need a few things to start using this port. In parenthesis is what I have be
 
 
 
-*The port itself (download from Github)
+* The port itself (download from Github)
 
-*Drivers for TI Launchpad (get from TI)
+* Drivers for TI Launchpad (get from TI)
 
-*a compiler (mspgcc)
+* a compiler (mspgcc)
 
-*a tool to upload the compiled binary with (mspdebug)
+* a tool to upload the compiled binary with (mspdebug)
 
 
 

@@ -21,7 +21,7 @@ Maglev station
 
 
 
-Yep, <strong>that</strong> fast!
+Yep, *that* fast!
 <a href=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\"><img src=\"http://www.bithappens.se/blog/wp-content/uploads/2011/11/20111105-002634.jpg\" alt=\"20111105-002634.jpg\" class=\"alignnone size-full\" /></a>
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Using vector graphics in your Cadsoft Eagle designs
 ---
 
-<strong>TL;DR: get it here, with instructions: https://github.com/msloth/eagle-poly-from-vgfx</strong>
+*TL;DR: get it here, with instructions: https://github.com/msloth/eagle-poly-from-vgfx*
 
 Technology can even in its most raw and bare form certainly be beautiful. The bottom of a motherboard, with long, parallell, impedance-matched traces from PCI-connectors is a good example. A large BGA is another, with traces extending in every direction.
 

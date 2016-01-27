@@ -5,7 +5,7 @@ title: Updating Iphone failed: "not eligible"
 
 Background, was running my Iphone 4 with 4.2.1 and tethered jailbreak using redsn0w 0.9.6.4b. I wanted to update it to 4.3.3 to both get rid of the tethered boot (ie, to boot up the phone, it must be connected to my Macbook and I must go through a keypress kombo (not the Konami-code ;) ) and to get the convenience of Wifi-hotspots.
 
-Itunes didn\'t like me though so it kept saying <strong>\"this device is not eligible for the requested build\"</strong> when it came to the \'verifiying with Apple\' stage. Tried lots of things, and I had the latest Itunes etc. This accumulation of tricks I found on various sites is what finally helped:
+Itunes didn\'t like me though so it kept saying *\"this device is not eligible for the requested build\"* when it came to the \'verifiying with Apple\' stage. Tried lots of things, and I had the latest Itunes etc. This accumulation of tricks I found on various sites is what finally helped:
 
 * sync and backup the phone first! (sync, then rightclick and choose \'backup\', maybe not necessary with both?)
 * downloaded the 4.3.3 restore IPSW (google for it)

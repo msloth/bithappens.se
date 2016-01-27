@@ -12,13 +12,13 @@ In short this is what I\'ll discuss:
 
 
 
-	*Serial Shell
+	* Serial Shell
 
-	*MSPSim
+	* MSPSim
 
-	*Cooja
+	* Cooja
 
-	*the Mobility plugin
+	* the Mobility plugin
 
 
 
@@ -31,8 +31,8 @@ All set? Let\'s get going!
 The Contiki Serial Shell is a UNIX-­style shell that allows for text‐based interaction, including features such as piping data, run in background etc. Having shell running on a mote allows for simple interaction and testing. The drawback is that it uses precious ROM/RAM space; hence it is not used in Contiki per default but must be added in the following way.
 In your `project sourcefile`
 
-[c ruler=\"true\"]  #include &quot;shell.h&quot;
-  #include &quot;serial-shell.h&quot;
+[c ruler=\"true\"]  #include "shell.h"
+  #include "serial-shell.h"
   ...
   serial_shell_init();
   shell_sky_init();
@@ -60,12 +60,12 @@ Basic shell commands and usage, using shell_coffee (the Coffee file system), she
 • Same, write to file
 `sense | senseconv | write logfile.txt`
 • Periodically (every 2 seconds), forever (0), read sensors and append to `logfile.txt`, in background.`
-repeat 0 2 {Sense | senseconv | append logfile.txt} &amp;`
+repeat 0 2 {Sense | senseconv | append logfile.txt} &`
 
 This is how you create your own shell commands: first you need a process that is the actual command, then declare a SHELL_COMMAND and finally register that command with the serial shell.
 
-[c ruler=\"true\"]PROCESS(utoggle_process, &quot;Toggle lines&quot;);
-SHELL_COMMAND(utog_command, &quot;ut&quot;, &quot;ut: toggle lines&quot;, &amp;utoggle_process);
+[c ruler=\"true\"]PROCESS(utoggle_process, "Toggle lines");
+SHELL_COMMAND(utog_command, "ut", "ut: toggle lines", &utoggle_process);
 /* --------------------------------- */
 PROCESS_THREAD(utoggle_process, ev, data) {
 PROCESS_BEGIN();
@@ -74,7 +74,7 @@ PROCESS_END();
 }
 ...
 
-shell_register_command(&amp;utog_command);```
+shell_register_command(&utog_command);```
 
 
 ## MSPSim
